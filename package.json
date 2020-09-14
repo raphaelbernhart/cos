@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "Class On Scroll is a library which adds classes to animate or change appereance when the element is seen in the view.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "tsc -b"
+    "start:dev": "tsc -w",
+    "build": "tsc -b ."
   },
   "repository": {
     "type": "git",
