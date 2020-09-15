@@ -15,6 +15,12 @@ body {
     background-color: aqua;
 }
 
+.cos {
+    opacity: 0;
+    background-color: red;
+    transform: translateY(40px);
+}
+
 .fs:first-child {
     margin-top: 0!important;
 }
@@ -28,5 +34,6 @@ body {
 }
 
 .cos-1 {
-    background-color: red;
+    opacity: 1;
+    transform: translateY(0);
 }
