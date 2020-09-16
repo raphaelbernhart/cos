@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start:dev": "tsc -w",
+    "start:dev": "live-server --port=8080 --entry-file=./",
+    "build:dev": "tsc -w",
     "build": "tsc -b ."
   },
   "repository": {
