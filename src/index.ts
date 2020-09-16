@@ -8,7 +8,7 @@ let $cosElements: Array<any> = [];
 // default options
 let options: Options = {
     disabled: false,
-    addOnce: true
+    addOnce: false
 }
 
 // COS Initialization
@@ -16,11 +16,11 @@ const init = (userOptions?: UserOptions) => {
     if(options.disabled) return
 
     // Set options
-    if(userOptions) {
-        Object.keys(userOptions).forEach(key => {
-            options[key]
-        })
-    }
+    // if(userOptions) {
+    //     Object.keys(userOptions).forEach(key => {
+    //         options[key]
+    //     })
+    // }
 
     // Get COS Elements
     $cosElements = Detector()
@@ -55,5 +55,5 @@ const disable = (): void => {
 init()
 
 export {
-    options
+    options,
 };
