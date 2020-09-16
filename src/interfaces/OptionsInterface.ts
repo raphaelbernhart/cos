@@ -1,5 +1,5 @@
 export interface Options {
-    disabled: keyof UserOptions | boolean,
+    [disabled: string]: boolean,
     addOnce: boolean
 }
 
