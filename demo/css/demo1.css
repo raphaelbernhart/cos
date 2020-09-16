@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+body {
+    margin: 0;
+}
+
+.fs {
+    height: 100vh;
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: aqua;
+}
+
+.cos {
+    opacity: 0;
+    background-color: red;
+    transform: translateY(40px);
+}
+
+.fs:first-child {
+    margin-top: 0!important;
+}
+
+.fs:last-child {
+    margin-bottom: 0!important;
+}
+
+.demo {
+    padding: 20px;
+}
+
+.cos-1 {
+    opacity: 1;
+    transform: translateY(0);
+}

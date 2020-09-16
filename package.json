@@ -1,0 +1,30 @@
+{
+  "name": "cos",
+  "version": "0.0.1",
+  "description": "Class On Scroll is a library which adds classes to animate or change appereance when the element is seen in the view.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "live-server --port=8080 --entry-file=./",
+    "build:dev": "tsc -w",
+    "build": "tsc -b ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelbernhart/cos.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Raphael Bernhart",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/raphaelbernhart/cos/issues"
+  },
+  "homepage": "https://github.com/raphaelbernhart/cos#readme",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
